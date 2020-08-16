@@ -1,0 +1,121 @@
+.App {
+    display: "flex";
+    align-items: "center";
+    justify-content: "center";
+    flex: 1
+}
+
+.header {
+    text-align: center;
+}
+
+ul {
+    height: 10vh;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    /* border-right: 1px solid #bbb; */
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    margin-top: 10px;
+    /* Check Last */
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.input-field {
+    width: 30vw;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.button-cust {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.user-login {
+    float: right;
+}
+
+.search {
+    margin-top: 15px;
+    margin-left: 20vw;
+    min-width: 40vw;
+    padding: 10px;
+}
+
+/* filter */
+
+.filter {
+    float: left;
+    display: flex;
+    max-width: 200px;
+    min-height: 100vh;
+    border: 1px solid #000;
+    flex-direction: column;
+}
+
+.filter-colour {
+    height: 10vh;
+    width: 20vh;
+    margin: 10px;
+    border: 1px solid #000;
+
+}
+
+.price-select {
+    margin: 10px;
+    flex-direction: row;
+}
+
+span {
+    display: inline-block;
+    width: 18vh;
+    /* background-color: blue; */
+    padding: 5px;
+    float: left;
+}
+
+
+
+/* itemlist */
+
+.item-list {
+    float: right;
+    background-color: #667788;
+    /* max-width: 200px; */
+    max-width: 87%;
+    height: 200px;
+}
+
+.items {
+    height: 10vh;
+    width: 20vh;
+    margin: 10px;
+    border: 1px solid #000;
+}   
